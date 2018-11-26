@@ -7,7 +7,7 @@ MAKEOPTS="-j8 -s"
 
 ## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug"
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries --quiet"
 
 ## SYSTEM LANGUAGES ##
 LINGUAS="en en_US en_GB uk ro_RO ro"
